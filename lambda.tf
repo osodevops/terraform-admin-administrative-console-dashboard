@@ -21,3 +21,11 @@ resource "aws_lambda_function" "adminconsoledataprepare" {
 #     S3Key = "data_prepare.zip"
 #   }
 }
+
+resource "aws_lambda_permission" "adminconsolehourlyscheduledataprepare" {
+  action = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.adminconsoledataprepare.arn
+  principal = "events.amazonaws.com"
+  source_arn = aws_cloudwatch_event_rule.adminconsolehourlyschedule.arn
+}
+
