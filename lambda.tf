@@ -5,7 +5,7 @@ resource "aws_lambda_function" "adminconsoledataprepare" {
 
   environment {
     variables = {
-        aws_region = data.aws_region.current.name
+        aws_region = var.aws_region
     }
   }
   handler = "data_prepare.lambda_handler"
