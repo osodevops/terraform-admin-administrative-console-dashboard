@@ -30,13 +30,3 @@ examples: |-
       source     = "../.."
     }
   ```
-related:
-  - name: ""
-    description: ""
-    url: "https://github.com/osodevops/"
-
-# References
-references:
-  - name: ""
-    description: ""
-    url: "https://"
