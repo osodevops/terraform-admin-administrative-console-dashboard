@@ -1,7 +1,7 @@
 resource "aws_cloudwatch_event_rule" "adminconsolehourlyschedule" {
   description = "CloudWatch rule to run lambda every hour"
   name = "admin-console-every-hour"
-  schedule_expression = "cron(0 * * * *)"
+  schedule_expression = "cron(0 * * * ? *)"
 }
 
 resource "aws_cloudwatch_event_target" "check_adminconsolehourlyschedule" {
