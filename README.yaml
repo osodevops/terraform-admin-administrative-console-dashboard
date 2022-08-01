@@ -15,7 +15,7 @@ description: |-
   See `examples/complete` for a working example, this module creates the resources needed to create the QuickSight dashboard and the resources stated in the CloudFormation 
   such as Lambda, CloudWatch event, s3 bucket etc.
 # Canonical GitHub repo
-github_repo: https://github.com/osodevops/terraform-admin-administrative-console-dashboard
+github_repo: https://github.com/osodevops/terraform-admin-administrative-console-dashboard/
 
 # How to use this project
 usage: |-
