@@ -21,7 +21,8 @@ github_repo: https://github.com/osodevops/terraform-admin-administrative-console
 usage: |-
   ### Requirements
   Terraform 1.2.6 
-  A state resource such as an s3 bucket or terraform cloud.
+  
+  State resource such as an s3 bucket or terraform cloud.
 # Example usage
 examples: |-
   See examples/complete
