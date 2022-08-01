@@ -62,19 +62,6 @@ See examples/complete
 
 
 
-## Related Projects
-
-Check out these related projects.
-
-- [](https://github.com/osodevops/) - 
-
-
-
-## Customer Stories
-
-Discover our customer stories and see what OSO can deliver for your business.
-
-- [](https://) - 
 
 
 
