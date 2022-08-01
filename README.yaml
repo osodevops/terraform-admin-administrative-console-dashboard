@@ -1,0 +1,42 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: "Administrative Console in Amazon QuickSight to Analyze Usage Metrics"
+
+# Short description of this project
+description: |-
+  Converted the CloudFormation on the aws guide for [Building an administrative console in Amazon QuickSight to analyze usage metrics](https://aws.amazon.com/blogs/big-data/building-an-administrative-console-in-amazon-quicksight-to-analyze-usage-metrics/)
+  into terraform. To enable the creation of the resources in any region more easily. 
+  
+  See `examples/complete` for a working example, this module creates the resources needed to create the QuickSight dashboard and the resources stated in the CloudFormation 
+  such as Lambda, CloudWatch event, s3 bucket etc.
+# Canonical GitHub repo
+github_repo: https://github.com/osodevops/terraform-admin-administrative-console-dashboard/
+
+# How to use this project
+usage: |-
+  ### Requirements
+  Terraform 1.2.6 
+  A state resource such as an s3 bucket or terraform cloud.
+# Example usage
+examples: |-
+  See examples/complete
+  ```yaml
+    module "quick_sight_dashboard" {
+      source     = "../.."
+    }
+  ```
+related:
+  - name: ""
+    description: ""
+    url: "https://github.com/osodevops/"
+
+# References
+references:
+  - name: ""
+    description: ""
+    url: "https://"
