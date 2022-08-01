@@ -1,3 +1,4 @@
 output "s3_bucket_id" {
-  description = "The id of the s3 bucket"
+  description = "The name of the bucket."
+  value       = module.adminconsole_bucket.s3_bucket_id
 }
